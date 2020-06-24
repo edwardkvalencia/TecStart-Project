@@ -3,7 +3,7 @@ const Web3 = require('web3')
 const compiledFactory = require('./build/CampaignFactory.json')
 
 const provider = new HDWalletProvider(
-	'<Private Key',
+	'<Private Key>',
 	'https://rinkeby.infura.io/v3/5312eb0aaf83463db32b581d2ff54aab'
 );
 
